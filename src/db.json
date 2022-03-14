@@ -1,0 +1,52 @@
+{
+  "houses": [
+    {
+      "form": {
+        "name": "madhan mohan",
+        "OwnerName": "mm",
+        "adress": "Rajupeta",
+        "pincode": "531021",
+        "rent": "3000",
+        "image": "https://www.google.com/search?q=house+image&sxsrf=APq-WBtyzkHf66Tc1lO2d3qZg75xRPfuUQ:1647232778930&tbm=isch&source=iu&ictx=1&vet=1&fir=PCj5VWGURIThbM%252Cw_edFuvJNI2ApM%252C_%253BLOAHUOPeDQPEbM%252Cg9WlojmsydTXDM%252C_%253BlE0dBdOmDMhXJM%252CcGGSkmVy9GNy4M%252C_%253B0SAWoxXnTR-eeM%252CbKDeuT6CmsQXXM%252C_%253BMg8ChmbGZsQxiM%252CGt2tqvAuKAxuVM%252C_%253BnkztvE2FO-0EmM%252C3Cjyk46L03lySM%252C_%253Bv2YjqRT364FiuM%252CGt2tqvAuKAxuVM%252C_%253BcxSui2xRRpj2VM%252Cg9WlojmsydTXDM%252C_%253B9AT7WU_yc2YyyM%252CvwFdBsRnpqWBxM%252C_%253Btlxt7ZlcQKIDTM%252CcxH1oOA7j7DoOM%252C_%253BcnEyoWvRBi8sLM%252Cw_edFuvJNI2ApM%252C_%253BUvApIPjufC3-EM%252CbKDeuT6CmsQXXM%252C_%253BYXXIYZNUX61k7M%252Ckdk8s8y8K8ZLEM%252C_&usg=AI4_-kRjqr8X6AyjNieGpSFQwZwBD6TU7w&sa=X&ved=2ahUKEwjD2Jml5MT2AhW-UGwGHW_YBBUQ9QF6BAgEEAE#imgrc=PCj5VWGURIThbM",
+        "checkbox2": "on"
+      },
+      "id": 1
+    },
+    {
+      "form": {
+        "name": "madhan mohan",
+        "OwnerName": "mm",
+        "adress": "Rajupeta",
+        "pincode": "531021",
+        "rent": "3000",
+        "image": "https://www.google.com/search?q=house+image&sxsrf=APq-WBtyzkHf66Tc1lO2d3qZg75xRPfuUQ:1647232778930&tbm=isch&source=iu&ictx=1&vet=1&fir=PCj5VWGURIThbM%252Cw_edFuvJNI2ApM%252C_%253BLOAHUOPeDQPEbM%252Cg9WlojmsydTXDM%252C_%253BlE0dBdOmDMhXJM%252CcGGSkmVy9GNy4M%252C_%253B0SAWoxXnTR-eeM%252CbKDeuT6CmsQXXM%252C_%253BMg8ChmbGZsQxiM%252CGt2tqvAuKAxuVM%252C_%253BnkztvE2FO-0EmM%252C3Cjyk46L03lySM%252C_%253Bv2YjqRT364FiuM%252CGt2tqvAuKAxuVM%252C_%253BcxSui2xRRpj2VM%252Cg9WlojmsydTXDM%252C_%253B9AT7WU_yc2YyyM%252CvwFdBsRnpqWBxM%252C_%253Btlxt7ZlcQKIDTM%252CcxH1oOA7j7DoOM%252C_%253BcnEyoWvRBi8sLM%252Cw_edFuvJNI2ApM%252C_%253BUvApIPjufC3-EM%252CbKDeuT6CmsQXXM%252C_%253BYXXIYZNUX61k7M%252Ckdk8s8y8K8ZLEM%252C_&usg=AI4_-kRjqr8X6AyjNieGpSFQwZwBD6TU7w&sa=X&ved=2ahUKEwjD2Jml5MT2AhW-UGwGHW_YBBUQ9QF6BAgEEAE#imgrc=PCj5VWGURIThbM",
+        "checkbox2": "on"
+      },
+      "id": 2
+    },
+    {
+      "form": {
+        "name": "madhan mohan",
+        "OwnerName": "masai",
+        "adress": "Rajupeta",
+        "pincode": "531021",
+        "rent": "3000",
+        "image": "https://www.google.com/search?q=house+image&sxsrf=APq-WBtyzkHf66Tc1lO2d3qZg75xRPfuUQ:1647232778930&tbm=isch&source=iu&ictx=1&vet=1&fir=PCj5VWGURIThbM%252Cw_edFuvJNI2ApM%252C_%253BLOAHUOPeDQPEbM%252Cg9WlojmsydTXDM%252C_%253BlE0dBdOmDMhXJM%252CcGGSkmVy9GNy4M%252C_%253B0SAWoxXnTR-eeM%252CbKDeuT6CmsQXXM%252C_%253BMg8ChmbGZsQxiM%252CGt2tqvAuKAxuVM%252C_%253BnkztvE2FO-0EmM%252C3Cjyk46L03lySM%252C_%253Bv2YjqRT364FiuM%252CGt2tqvAuKAxuVM%252C_%253BcxSui2xRRpj2VM%252Cg9WlojmsydTXDM%252C_%253B9AT7WU_yc2YyyM%252CvwFdBsRnpqWBxM%252C_%253Btlxt7ZlcQKIDTM%252CcxH1oOA7j7DoOM%252C_%253BcnEyoWvRBi8sLM%252Cw_edFuvJNI2ApM%252C_%253BUvApIPjufC3-EM%252CbKDeuT6CmsQXXM%252C_%253BYXXIYZNUX61k7M%252Ckdk8s8y8K8ZLEM%252C_&usg=AI4_-kRjqr8X6AyjNieGpSFQwZwBD6TU7w&sa=X&ved=2ahUKEwjD2Jml5MT2AhW-UGwGHW_YBBUQ9QF6BAgEEAE#imgrc=PCj5VWGURIThbM",
+        "checkbox1": "on"
+      },
+      "id": 3
+    },
+    {
+      "form": {
+        "name": "madhan mohan",
+        "OwnerName": "masai",
+        "adress": "Rajupeta",
+        "pincode": "531021",
+        "rent": "3000",
+        "image": "https://www.google.com/search?q=house+image&sxsrf=APq-WBtyzkHf66Tc1lO2d3qZg75xRPfuUQ:1647232778930&tbm=isch&source=iu&ictx=1&vet=1&fir=PCj5VWGURIThbM%252Cw_edFuvJNI2ApM%252C_%253BLOAHUOPeDQPEbM%252Cg9WlojmsydTXDM%252C_%253BlE0dBdOmDMhXJM%252CcGGSkmVy9GNy4M%252C_%253B0SAWoxXnTR-eeM%252CbKDeuT6CmsQXXM%252C_%253BMg8ChmbGZsQxiM%252CGt2tqvAuKAxuVM%252C_%253BnkztvE2FO-0EmM%252C3Cjyk46L03lySM%252C_%253Bv2YjqRT364FiuM%252CGt2tqvAuKAxuVM%252C_%253BcxSui2xRRpj2VM%252Cg9WlojmsydTXDM%252C_%253B9AT7WU_yc2YyyM%252CvwFdBsRnpqWBxM%252C_%253Btlxt7ZlcQKIDTM%252CcxH1oOA7j7DoOM%252C_%253BcnEyoWvRBi8sLM%252Cw_edFuvJNI2ApM%252C_%253BUvApIPjufC3-EM%252CbKDeuT6CmsQXXM%252C_%253BYXXIYZNUX61k7M%252Ckdk8s8y8K8ZLEM%252C_&usg=AI4_-kRjqr8X6AyjNieGpSFQwZwBD6TU7w&sa=X&ved=2ahUKEwjD2Jml5MT2AhW-UGwGHW_YBBUQ9QF6BAgEEAE#imgrc=PCj5VWGURIThbM",
+        "checkbox1": "on"
+      },
+      "id": 4
+    }
+  ]
+}

@@ -1,4 +1,5 @@
 import { useState } from "react";
+import axios from "axios";
 
 export const AddHouse = () => {
 
@@ -52,8 +53,8 @@ export const AddHouse = () => {
         <br />
         <input className="submitBtn" type="submit" onClick={(e)=>{
           e.preventDefault()
-          console.log(form)
-        }}/>
+
+          axios.post('http://localhost:8080/houses', {form}).then(function (response) {console.log(response);})}}/>
       </form>
     </div>
   );
