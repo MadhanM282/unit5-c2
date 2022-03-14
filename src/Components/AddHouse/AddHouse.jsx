@@ -2,39 +2,58 @@ import { useState } from "react";
 
 export const AddHouse = () => {
 
-  const [House,setHouse] = useState({
+  const [form,setForm] = useState({
+    name:"",
+    OwnerName:"",
+    adress:'',
+    pincode:"",
+    rent:"",
+    image:"",
 
   })
+
+  const formData = (e)=>{
+    const {id,value}= e.target
+    // console.log(value)
+    setForm({
+      ...form,
+      [id]: value
+    })
+    
+  }
   return (
     <div className="addHouseContainer">
-      <form>
+      <form >
         <label>name</label>
-        <input id='Name' type="text" className="name" value={""} required />
+        <input onChange={formData} id='name' type="text" className="name"  required />
         <br />
         <label>ownerName</label>
-        <input id = "OwnerName" value={""} type="text" className="ownerName" required />
+        <input onChange={formData} id = "OwnerName"  type="text" className="ownerName" required />
         <br />
         <label>address</label>
-        <input value={""} type="text" className="address" required />
+        <input onChange={formData} id="adress"   type="text" className="address" required />
         <br />
         <label>areaCode</label>
-        <input value={""} type="text" className="areaCode" required />
+        <input onChange={formData} id = "pincode"  type="text" className="areaCode" required />
         <br />
         <label>rent</label>
-        <input value={""} type="text" className="rent" required />
+        <input onChange={formData} id = "rent"  type="text" className="rent" required />
         <br />
         <label>preferredTenant</label>
         <br />
         <label>bachelor</label>
-        <input checked={""} type="checkbox" className="bachelor" />
+        <input onChange={formData} id = "checkbox1" checked={form.bachelor} type="checkbox" className="bachelor" />
         <br />
         <label>married</label>
-        <input checked={""} type="checkbox" className="married" />
+        <input onChange={formData} id = "checkbox2" checked={form.married} type="checkbox" className="married" />
         <br />
         <label>image</label>
-        <input value={""} type="text" className="image" required />
+        <input onChange={formData} id="image"  type="text" className="image" required />
         <br />
-        <input className="submitBtn" type="submit" />
+        <input className="submitBtn" type="submit" onClick={(e)=>{
+          e.preventDefault()
+          console.log(form)
+        }}/>
       </form>
     </div>
   );
