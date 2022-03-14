@@ -52,7 +52,7 @@ export const AddHouse = () => {
         <input onChange={formData} id="image"  type="text" className="image" required />
         <br />
         <input className="submitBtn" type="submit" onClick={(e)=>{
-          e.preventDefault()
+          // e.preventDefault()
 
           axios.post('http://localhost:8080/houses', {form}).then(function (response) {console.log(response);})}}/>
       </form>
