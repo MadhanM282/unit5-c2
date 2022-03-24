@@ -27,23 +27,23 @@ export const Rentals = () => {
         }}>Sort by ID</button>
         <button className="sortByRentAsc" onClick={() =>{
           let sort = houseData.sort((a,b)=>{
-            return b.form.rent-a.form.rent
+            return a.form.rent-b.form.rent
           })
-          // console.log('sort', sort);
+          console.log('sort', sort);
           setHouse(sort)
           Setcount(1)
         }}>Rent Low to high</button>
         <button className="sortByRentDesc" onClick={() =>{
           let sort = houseData.sort((a,b)=>{
-            return a.form.rent-b.form.rent
+            return b.form.rent-a.form.rent
           })
-          // console.log('sort', sort);
+          console.log('sort', sort);
           setHouse(sort)
           Setcount(1)
         }}>Rent High to low</button>
         <button className="sortByAreaAsc" onClick={() =>{
           let sort = houseData.sort((a,b)=>{
-            return b.form.adress-a.form.adress
+            return a.form.adress-b.form.adress
           })
           // console.log('sort', sort);
           setHouse(sort)
@@ -51,7 +51,7 @@ export const Rentals = () => {
         }}>Area Low to high</button>
         <button className="sortByAreaDesc" onClick={() =>{
           let sort = houseData.sort((a,b)=>{
-            return a.form.adress-b.form.adress
+            return b.form.adress-a.form.adress
           })
           // console.log('sort', sort);
           setHouse(sort)
