@@ -7,17 +7,18 @@ function App() {
   const [show,setShow] =useState(false);
   return (
     <div className="App">
-      <AddHouse/>
+      
 
-      <Rentals/>
+      
       <button className="toggleForm" onClick = {()=>{
-        setShow(true);
+        setShow(!show);
       }}>
 
 
         {/* Show text Add House or Show Rentals based on state */}Add House
       </button>
       {/* Show component based on state */}
+      {show?<AddHouse/>:<Rentals/>}
       <br />
     </div>
   );

@@ -11,6 +11,41 @@
         "checkbox2": "on"
       },
       "id": 1
+    },
+    {
+      "form": {
+        "name": "",
+        "OwnerName": "",
+        "adress": "",
+        "pincode": "",
+        "rent": "",
+        "image": ""
+      },
+      "id": 2
+    },
+    {
+      "form": {
+        "name": "dasdasdsd",
+        "OwnerName": "sdsdsd",
+        "adress": "Rajupeta",
+        "pincode": "531021",
+        "rent": "789798",
+        "image": "",
+        "checkbox1": "on"
+      },
+      "id": 3
+    },
+    {
+      "form": {
+        "name": "dasdasdsd",
+        "OwnerName": "sdsdsd",
+        "adress": "Rajupeta",
+        "pincode": "531021",
+        "rent": "789798",
+        "image": "assdasd",
+        "checkbox1": "on"
+      },
+      "id": 4
     }
   ]
 }
